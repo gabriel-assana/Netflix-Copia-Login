@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+}
+
+.netflix-cabecalho {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.5) 0,rgba(0,0,0,0) 100%);
+    z-index: 1;
+}
+
+.logo-da-netflix {
+    height: 45px;
+    width: 167px;
+    vertical-align: middle;
+    padding: 1% 0 0 2%;
+}
+
+.img-netflix-topo{
+    width: 200px;
+}
+
+.fundo{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: black;
+    position: absolute;
+    height: 1076px;
+}
+
+.img-fundo {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0.5;
+}
+
+.caixa-login {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 68px 40px;
+    left: 0;
+    right: 0;
+    width: 314px;
+    height: 559px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75%;
+    /* box-sizing: border-box; */
+}
+
+h1 {
+    margin-bottom: 28px;
+}
+
+.principal {
+    height: 325px;
+}
+
+.dados {
+    width: 100%;
+}
+
+.dados input {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 16px 20px 0;
+    background-color: #333;
+    margin-bottom: 16px;
+}
+
+dados input{
+    font-size: 16px;
+    color: #8c8c8c;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    position: relative;
+    top: -5px;
+
+}
+
+.btnEntrar {
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0 12px;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    background: #e50914;
+    color: white;
+    border: none;
+}
+
+.lembra {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+a.ajuda {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    float: right;
+    text-decoration: none;
+}
+
+a.ajuda:hover {
+    text-decoration: underline;
+}
+
+.detalhes .fb-login {
+    height: 36px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.detalhes .fb-login .icon-facebook{
+    width: 20px;
+    height: 20px;
+}
+
+.detalhes .fb-login .descricao-fb {
+    color: #737373;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.detalhes .novo-aqui {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+.detalhes .novo-aqui a {
+    text-decoration: none;
+    color: white;
+}
+
+.detalhes .novo-aqui a:hover {
+    text-decoration: underline;
+}
+
+.detalhes .recaptcha {
+    font-size: 13px;
+    color: #8c8c8c;
+    margin-top: 14px;
+}
+
+.detalhes .recaptcha a {
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+
+.rodape {
+    width: 100vw;
+    background-color: rgba(0, 0, 0  , 0.75);
+    z-index: 99;
+    position: absolute;
+    margin-top: 127.5vh;
+    bottom: 0px;
+    height: 236px;
+    box-sizing: border-box;
+}
+
+.rodape div{
+    margin: 0px auto;
+    padding: 15px 70px;
+    background-color: rgba(0, 0, 0, 0.0);
+    box-sizing: border-box;
+
+}
+
+h2{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.0);
+    margin-bottom: 30px;
+}
+
+ul{
+    color: #757575;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.0);
+    list-style-type: none;
+    display: flex;
+    
+}
+
+li{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.li-dois{
+    margin-left: 70px;
+}
+
+.li-tres{
+    margin-left: 170px;
+}
+
+select{
+    margin-top: 30px;
+    background-image: url(img/word.png);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #757575;   
+    padding: 15px 24px;
+    border: 1px solid #757575;
+    text-transform: none;
+}
+
+option{
+    background-color: black;
+    color: #757575;
+}
+
+@media (max-width: 740px) {
+    .principal {
+        height: 320px;
+    }
+        
+    .caixa-login {
+        margin: 0 auto;
+        padding: 60px 0px 40px;
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .img-fundo {
+        opacity: 0;
+    }
+
+    .logo-da-netflix {
+        width: 76px;
+    }
+
+    .fundo{
+        height: 911px;
+    }
+
+    .rodape {
+        display: inline-block;
+        border-top: 1px solid #737373;
+        padding: 15px 5px;
+
+    }
+
+    .rodape div {
+       display: inline-block;
+       padding: 0;
+    }
+
+    .li-dois, .li-tres{
+        margin: 0;
+    }
+}
