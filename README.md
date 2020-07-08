@@ -6,4 +6,4 @@ Site responsivo, Utilizado HTML e CSS.
 
 Site similar a tela de login da Netflix.
 
-Url de Acesso: https://netflix-copia-login-gabriel-assana.netlify.app/
+Url de Acesso: https://netflix-copia-login-gabriel-assana.netlify.app
